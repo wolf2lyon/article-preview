@@ -451,19 +451,19 @@ html {
 }
 
 @media (min-width: 100px) {
-  html{
+  html {
     font-size: 12px;
   }
 }
 
 @media (min-width: 380px) {
-  html{
+  html {
     font-size: 16px;
   }
 }
 
-@media (max-height: 553px){
-  main{
+@media (max-height: 553px) {
+  main {
     height: auto;
     margin-top: 1.5rem;
   }
@@ -775,17 +775,27 @@ html {
   margin-left: calc(100% - 2.125rem);
 }
 
-.hover\:hover-share:hover svg path{
-  fill:white
+.hover\:hover-share:hover svg path {
+  fill: white
+}
+
+@media (min-width: 100px) {
+  .mobile\:w-88 {
+    width: 88%;
+  }
 }
 
 @media (min-width: 1440px) {
-  .desktop\:triangle-figure{
+  .desktop\:triangle-figure {
     clip-path: polygon(50% 100%, 0 0, 100% 0);
   }
 
-  .desktop\:hover-share svg path{
-    fill:white
+  .desktop\:hover-share svg path {
+    fill: white
+  }
+
+  .desktop\:w-94{
+    width: 94%;
   }
 }
 
@@ -829,14 +839,6 @@ html {
 
   .mobile\:w-\[2\.5rem\] {
     width: 2.5rem;
-  }
-
-  .mobile\:w-\[89\%\] {
-    width: 89%;
-  }
-
-  .mobile\:w-\[93\%\] {
-    width: 93%;
   }
 
   .mobile\:w-full {
@@ -954,10 +956,6 @@ html {
 
   .desktop\:w-\[31px\] {
     width: 31px;
-  }
-
-  .desktop\:w-\[93\%\] {
-    width: 93%;
   }
 
   .desktop\:max-w-\[17\.8125rem\] {
