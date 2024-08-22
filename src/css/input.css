@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@layer base{
+    html {
+        font-family: "Manrope", system-ui, sans-serif;
+    }
+    @media (min-width: 100px) {
+        html{
+            font-size: 12px;
+        }
+    }
+    @media (min-width: 380px) {
+        html{
+            font-size: 16px;
+        }
+    }
+    
+    @media (max-height: 553px){
+        main{
+            height: auto;
+            margin-top: 1.5rem;
+        }
+    }
+}
+
+@layer components {
+    .triangle-figure{
+        clip-path: polygon(50% 100%, 0 0, 100% 0);
+    }
+    .hover-share svg path{
+        fill:white
+    }
+}
